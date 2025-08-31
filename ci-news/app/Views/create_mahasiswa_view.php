@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?= esc($title) ?></title>
-    <style>
-        h1 { text-align: center; }
-        form { max-width: 500px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; }
-        label, input { display: block; margin-bottom: 10px; width: 100%; }
-        a { text-align: center; display: block; margin-top: 20px; text-decoration: none; }
-    </style>
+    <link rel="stylesheet" href="<?= base_url('style.css') ?>"> 
 </head>
 <body>
 

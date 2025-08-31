@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-        * { text-align: center; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin-bottom: 10px;}
-    </style>
     <title><?= esc($title) ?></title>
+    <link rel="stylesheet" href="<?= base_url('style.css') ?>"> 
 </head>
 <body>
     <h1><?= esc($title) ?></h1>
